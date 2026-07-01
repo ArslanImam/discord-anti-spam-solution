@@ -1,5 +1,5 @@
-# discord-anti-spam-solution
-We all seen "$2500 from Mr.Beast" spam message in discord, it's pretty annoying to delete it from all channels of a server, especially if it's a big server. I created a script that uses YAGPDB bot to handle these spam messages.
+<img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/59e4234f-3285-406c-9fe2-f1f2a581503c" /># discord-anti-spam-solution
+We all seen "$2500 from Mr.Beast" spam message in discord, it's pretty annoying to delete it from all channels of a server, especially if it's a big server. I created a script that uses YAGPDB bot to handle these spam messages. It timeouts the user before it can spread $2500 in all of your server's channels.
 
 # Setting up discord server
 1. Create a text channel, and name it something like **anti-spam-dont-text** to warn others. Place it on top of the channel list and make sure anyone can see and write or post in it.
@@ -7,7 +7,7 @@ We all seen "$2500 from Mr.Beast" spam message in discord, it's pretty annoying 
 3. Make sure to give access to **ban** or **timeout** accounts based on your preferences. By default, this script timeout account for 24 hours.
 4. Before edditing Command line, make sure discord server is selected.
 
-# Setting up Command line
+#  Setting up Command line
 1. In YAGPDB website, open **Custom Commands** in right tab. Press **Commands**.
 2. In Commands, press **Create a new custom command**. This will open a new editor tab. Change the following settings:
 3. Change **Trigger Type** to **Regex**.
@@ -40,4 +40,5 @@ Now, we're going to enable bot moderation so that bot can timeout or ban the use
 4. Add the moderation and owner's role in **Users with the following roles will have permissoion to use the timeout related commands**.
 5. Type 1440 in **Timeout duration in minutes**. 1440 min is equals to 24 hours.
 6. Press **save**.
-7. 
+
+That's all you have to do to setup the bot. Now verify it by typing anything in that text channel and make sure that account does not have **mod** or **owner** role.
