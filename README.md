@@ -1,4 +1,3 @@
-<img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/59e4234f-3285-406c-9fe2-f1f2a581503c" /># discord-anti-spam-solution
 We all seen "$2500 from Mr.Beast" spam message in discord, it's pretty annoying to delete it from all channels of a server, especially if it's a big server. I created a script that uses YAGPDB bot to handle these spam messages. It timeouts the user before it can spread $2500 in all of your server's channels.
 
 # Setting up discord server
